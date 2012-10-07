@@ -1,0 +1,201 @@
+
+Log Entry : 
+07/22/2012 20:06:53
+Error in: http://localhost:15833/manage/Items/InventoryHome.aspx. Error Message:Error in: http://localhost:15833/manage/Items/InventoryHome.aspx
+ Error Message:The file '/manage/Items/InventoryHome.aspx' does not exist.
+ Inner Exception:   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+__________________________
+
+Log Entry : 
+07/22/2012 20:59:18
+Error in: http://localhost:15833/manage/Items/InventoryHome.aspx. Error Message:Error in: http://localhost:15833/manage/Items/InventoryHome.aspx
+ Error Message:The file '/manage/Items/InventoryHome.aspx' does not exist.
+ Inner Exception:   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+__________________________
+
+Log Entry : 
+07/22/2012 21:03:30
+Error in: http://localhost:15833/manage/Companies/OurCustomers.aspx. Error Message:Error in: http://localhost:15833/manage/Companies/OurCustomers.aspx
+ Error Message:c:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\Companies\OurCustomers.aspx(20): error CS1061: 'ASP.manage_companies_ourcustomers_aspx' does not contain a definition for 'DeletePermissionImageButton' and no extension method 'DeletePermissionImageButton' accepting a first argument of type 'ASP.manage_companies_ourcustomers_aspx' could be found (are you missing a using directive or an assembly reference?)
+ Inner Exception:   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+__________________________
+
+Log Entry : 
+07/22/2012 21:05:08
+Error in: http://localhost:15833/manage/Companies/OurCustomers.aspx. Error Message:Error in: http://localhost:15833/manage/Companies/OurCustomers.aspx
+ Error Message:Procedure or function 'AllowedStoreGetByCompany' expects parameter '@supplier_id', which was not supplied.
+ Inner Exception:   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at HealthStop.Business.Framework.SqlHelperBase.ExecuteDataReader(String command, CommandType commandType, List`1 parameterList, CommandBehavior behavior, Int32 timeout) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Framework\SqlHelperBase.cs:line 263
+   at HealthStop.Business.Framework.EntityBaseReadOnly.GetList[T](EntityBaseReadOnly parent, String commandText, List`1 parameters) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Framework\Generated.EntityBaseReadOnly.cs:line 1126
+   at HealthStop.Business.AllowedStore.GetAllowedStoresBycustomer_(Company customer_) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Generated.AllowedStore.cs:line 693
+   at HealthStop.Web.manage.Companies.OurCustomers.PopulateCustomers() in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\Companies\OurCustomers.aspx.cs:line 33
+   at HealthStop.Web.manage.Companies.OurCustomers.Page_Load(Object sender, EventArgs e) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\Companies\OurCustomers.aspx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+__________________________
+
+Log Entry : 
+07/22/2012 21:06:12
+Error in: http://localhost:15833/manage/Companies/OurCustomers.aspx. Error Message:Error in: http://localhost:15833/manage/Companies/OurCustomers.aspx
+ Error Message:Procedure or function 'AllowedStoreGetByCompany' expects parameter '@supplier_id', which was not supplied.
+ Inner Exception:   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at HealthStop.Business.Framework.SqlHelperBase.ExecuteDataReader(String command, CommandType commandType, List`1 parameterList, CommandBehavior behavior, Int32 timeout) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Framework\SqlHelperBase.cs:line 263
+   at HealthStop.Business.Framework.EntityBaseReadOnly.GetList[T](EntityBaseReadOnly parent, String commandText, List`1 parameters) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Framework\Generated.EntityBaseReadOnly.cs:line 1126
+   at HealthStop.Business.AllowedStore.GetAllowedStoresBycustomer_(Company customer_) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Generated.AllowedStore.cs:line 693
+   at HealthStop.Web.manage.Companies.OurCustomers.PopulateCustomers() in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\Companies\OurCustomers.aspx.cs:line 33
+   at HealthStop.Web.manage.Companies.OurCustomers.Page_Load(Object sender, EventArgs e) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\Companies\OurCustomers.aspx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+__________________________
+
+Log Entry : 
+07/22/2012 21:06:16
+Error in: http://localhost:15833/manage/Companies/OurCustomers.aspx. Error Message:Error in: http://localhost:15833/manage/Companies/OurCustomers.aspx
+ Error Message:Procedure or function 'AllowedStoreGetByCompany' expects parameter '@supplier_id', which was not supplied.
+ Inner Exception:   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at HealthStop.Business.Framework.SqlHelperBase.ExecuteDataReader(String command, CommandType commandType, List`1 parameterList, CommandBehavior behavior, Int32 timeout) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Framework\SqlHelperBase.cs:line 263
+   at HealthStop.Business.Framework.EntityBaseReadOnly.GetList[T](EntityBaseReadOnly parent, String commandText, List`1 parameters) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Framework\Generated.EntityBaseReadOnly.cs:line 1126
+   at HealthStop.Business.AllowedStore.GetAllowedStoresBycustomer_(Company customer_) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Generated.AllowedStore.cs:line 693
+   at HealthStop.Web.manage.Companies.OurCustomers.PopulateCustomers() in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\Companies\OurCustomers.aspx.cs:line 33
+   at HealthStop.Web.manage.Companies.OurCustomers.Page_Load(Object sender, EventArgs e) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\Companies\OurCustomers.aspx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+__________________________
+
+Log Entry : 
+07/22/2012 21:34:44
+Error in: http://localhost:15833/manage/Companies/OurCustomers.aspx. Error Message:Error in: http://localhost:15833/manage/Companies/OurCustomers.aspx
+ Error Message:Procedure or function 'AllowedStoreGetByCompany' expects parameter '@supplier_id', which was not supplied.
+ Inner Exception:   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at HealthStop.Business.Framework.SqlHelperBase.ExecuteDataReader(String command, CommandType commandType, List`1 parameterList, CommandBehavior behavior, Int32 timeout) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Framework\SqlHelperBase.cs:line 263
+   at HealthStop.Business.Framework.EntityBaseReadOnly.GetList[T](EntityBaseReadOnly parent, String commandText, List`1 parameters) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Framework\Generated.EntityBaseReadOnly.cs:line 1126
+   at HealthStop.Business.AllowedStore.GetAllowedStoresBycustomer_(Company customer_) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Generated.AllowedStore.cs:line 715
+   at HealthStop.Web.manage.Companies.OurCustomers.PopulateCustomers() in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\Companies\OurCustomers.aspx.cs:line 33
+   at HealthStop.Web.manage.Companies.OurCustomers.Page_Load(Object sender, EventArgs e) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\Companies\OurCustomers.aspx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+__________________________
+
+Log Entry : 
+07/22/2012 21:46:26
+Error in: http://localhost:15833/manage/Companies/OurCustomers.aspx. Error Message:Error in: http://localhost:15833/manage/Companies/OurCustomers.aspx
+ Error Message:Procedure or function 'AllowedStoreDelete' expects parameter '@customer_id', which was not supplied.
+ Inner Exception:   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at HealthStop.Business.Framework.SqlHelperBase.Execute(String command, CommandType commandType, List`1 parameterList, Int32 timeout) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Framework\SqlHelperBase.cs:line 116
+   at HealthStop.Business.Framework.EntityBase.Delete(SqlHelper helper) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Framework\Generated.EntityBase.cs:line 1178
+   at HealthStop.Business.Framework.EntityBase.Delete() in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Framework\Generated.EntityBase.cs:line 634
+   at HealthStop.Web.manage.Companies.OurCustomers.DeletePermissionImageButton_Command(Object sender, CommandEventArgs e) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\Companies\OurCustomers.aspx.cs:line 55
+   at System.Web.UI.WebControls.ImageButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+__________________________
+
+Log Entry : 
+07/22/2012 21:48:41
+Error in: http://localhost:15833/manage/Comapanies/ViewCompany.aspx?company_id=2. Error Message:Error in: http://localhost:15833/manage/Comapanies/ViewCompany.aspx?company_id=2
+ Error Message:The file '/manage/Comapanies/ViewCompany.aspx' does not exist.
+ Inner Exception:   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+__________________________

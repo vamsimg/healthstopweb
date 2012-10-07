@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1DD69F75-F4F3-4E5A-9D64-B33DB8B2E5EA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HealthStop.Business</RootNamespace>
+    <AssemblyName>HealthStop.Business</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Access.cs" />
+    <Compile Include="BusinessHelper.cs" />
+    <Compile Include="Generated.Access.cs">
+      <DependentUpon>Access.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.cs" />
+    <Compile Include="Generated.Admin.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllowedStore.cs" />
+    <Compile Include="Generated.AllowedStore.cs">
+      <DependentUpon>AllowedStore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company.cs" />
+    <Compile Include="Generated.Company.cs">
+      <DependentUpon>Company.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceItem.cs" />
+    <Compile Include="Generated.InvoiceItem.cs">
+      <DependentUpon>InvoiceItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice.cs" />
+    <Compile Include="Generated.Invoice.cs">
+      <DependentUpon>Invoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManufacturerProduct.cs" />
+    <Compile Include="Generated.ManufacturerProduct.cs">
+      <DependentUpon>ManufacturerProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permission.cs" />
+    <Compile Include="Generated.Permission.cs">
+      <DependentUpon>Permission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseOrderItem.cs" />
+    <Compile Include="Generated.PurchaseOrderItem.cs">
+      <DependentUpon>PurchaseOrderItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseOrder.cs" />
+    <Compile Include="Generated.PurchaseOrder.cs">
+      <DependentUpon>PurchaseOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Role.cs" />
+    <Compile Include="Generated.Role.cs">
+      <DependentUpon>Role.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupplierProduct.cs" />
+    <Compile Include="Generated.SupplierProduct.cs">
+      <DependentUpon>SupplierProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Framework\SqlHelperBase.cs" />
+    <Compile Include="Framework\SqlHelper.cs" />
+    <Compile Include="Framework\Generated.SqlHelper.cs">
+      <DependentUpon>SqlHelper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Framework\EntityBase.cs" />
+    <Compile Include="Framework\Generated.EntityBase.cs">
+      <DependentUpon>EntityBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Framework\EntityBaseReadOnly.cs" />
+    <Compile Include="Framework\Generated.EntityBaseReadOnly.cs">
+      <DependentUpon>EntityBaseReadOnly.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Framework\DatabaseColumnAttribute.cs" />
+    <Compile Include="Framework\EntityComparer.cs" />
+    <Compile Include="Framework\EntityEventArgs.cs" />
+    <Compile Include="Framework\EntityCancelEventArgs.cs" />
+    <Compile Include="Framework\EntityValidationEventArgs.cs" />
+    <Compile Include="Framework\EntityValidationCancelEventArgs.cs" />
+    <Compile Include="Framework\EntityException.cs" />
+    <Compile Include="Framework\EntityFinder.cs" />
+    <Compile Include="Framework\EntityListBase.cs" />
+    <Compile Include="Framework\Generated.EntityListBase.cs">
+      <DependentUpon>EntityListBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Framework\EntityList.cs" />
+    <Compile Include="Framework\Generated.EntityList.cs">
+      <DependentUpon>EntityList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Framework\EntityListReadOnly.cs" />
+    <Compile Include="Framework\Generated.EntityListReadOnly.cs">
+      <DependentUpon>EntityListReadOnly.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Framework\ISavable.cs" />
+    <Compile Include="Framework\ISearchable.cs" />
+    <Compile Include="Framework\MinToEmptyTypeConverter.cs" />
+    <Compile Include="Framework\ColumnInfo.cs" />
+    <Compile Include="Framework\ValidationError.cs" />
+    <Compile Include="Framework\ValidationGroup.cs" />
+    <Compile Include="Framework\Generated.ValidationGroup.cs">
+      <DependentUpon>ValidationGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,138 @@
+
+Log Entry : 
+08/06/2012 02:12:39
+Error in: http://localhost:15833/manage/PurchaseOrders/SupplierPurchaseOrders.aspx. Error Message:Error in: http://localhost:15833/manage/PurchaseOrders/SupplierPurchaseOrders.aspx
+ Error Message:c:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\PurchaseOrders\SupplierPurchaseOrders.aspx(31): error CS1061: 'ASP.manage_purchaseorders_supplierpurchaseorders_aspx' does not contain a definition for 'CreateInvoiceImageButton_Command' and no extension method 'CreateInvoiceImageButton_Command' accepting a first argument of type 'ASP.manage_purchaseorders_supplierpurchaseorders_aspx' could be found (are you missing a using directive or an assembly reference?)
+ Inner Exception:   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+__________________________
+
+Log Entry : 
+08/06/2012 02:14:53
+Error in: http://localhost:15833/manage/PurchaseOrders/SupplierPurchaseOrders.aspx. Error Message:Error in: http://localhost:15833/manage/PurchaseOrders/SupplierPurchaseOrders.aspx
+ Error Message:c:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\PurchaseOrders\SupplierPurchaseOrders.aspx(15): error CS1061: 'ASP.manage_purchaseorders_supplierpurchaseorders_aspx' does not contain a definition for 'PendingOrdersGridView_SelectedIndexChanged' and no extension method 'PendingOrdersGridView_SelectedIndexChanged' accepting a first argument of type 'ASP.manage_purchaseorders_supplierpurchaseorders_aspx' could be found (are you missing a using directive or an assembly reference?)
+ Inner Exception:   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+__________________________
+
+Log Entry : 
+08/06/2012 02:14:59
+Error in: http://localhost:15833/manage/PurchaseOrders/SupplierPurchaseOrders.aspx. Error Message:Error in: http://localhost:15833/manage/PurchaseOrders/SupplierPurchaseOrders.aspx
+ Error Message:c:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\PurchaseOrders\SupplierPurchaseOrders.aspx(15): error CS1061: 'ASP.manage_purchaseorders_supplierpurchaseorders_aspx' does not contain a definition for 'PendingOrdersGridView_SelectedIndexChanged' and no extension method 'PendingOrdersGridView_SelectedIndexChanged' accepting a first argument of type 'ASP.manage_purchaseorders_supplierpurchaseorders_aspx' could be found (are you missing a using directive or an assembly reference?)
+ Inner Exception:   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+__________________________
+
+Log Entry : 
+08/06/2012 02:15:43
+Error in: http://localhost:15833/manage/PurchaseOrders/SupplierPurchaseOrders.aspx. Error Message:Error in: http://localhost:15833/manage/PurchaseOrders/SupplierPurchaseOrders.aspx
+ Error Message:Cannot insert the value NULL into column 'total', table 'healthstop.dbo.Invoices'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+ Inner Exception:   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at HealthStop.Business.Framework.SqlHelperBase.ExecuteDataReader(String command, CommandType commandType, List`1 parameterList, CommandBehavior behavior, Int32 timeout) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Framework\SqlHelperBase.cs:line 263
+   at HealthStop.Business.Framework.EntityBase.Insert(SqlHelper helper) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Framework\Generated.EntityBase.cs:line 1150
+   at HealthStop.Business.Framework.EntityBase.Save(SqlHelper helper) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Framework\Generated.EntityBase.cs:line 726
+   at HealthStop.Business.Framework.EntityBaseReadOnly.Save() in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Framework\Generated.EntityBaseReadOnly.cs:line 289
+   at HealthStop.Web.manage.PurchaseOrders.SupplierPurchaseOrders.CreateInvoiceImageButton_Command(Object sender, CommandEventArgs e) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\PurchaseOrders\SupplierPurchaseOrders.aspx.cs:line 109
+   at System.Web.UI.WebControls.ImageButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+__________________________
+
+Log Entry : 
+08/06/2012 02:16:35
+Error in: http://localhost:15833/manage/PurchaseOrders/ViewPurchaseOrder.aspx?purchaseorder_id=6. Error Message:Error in: http://localhost:15833/manage/PurchaseOrders/ViewPurchaseOrder.aspx?purchaseorder_id=6
+ Error Message:DataBinding: 'HealthStop.Business.Invoice' does not contain a property with the name 'product_code'.
+ Inner Exception:   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at HealthStop.Web.manage.PurchaseOrders.ViewPurchaseOrder.PopulaterInvoices() in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\PurchaseOrders\ViewPurchaseOrder.aspx.cs:line 195
+   at HealthStop.Web.manage.PurchaseOrders.ViewPurchaseOrder.Page_Load(Object sender, EventArgs e) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\PurchaseOrders\ViewPurchaseOrder.aspx.cs:line 42
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+__________________________
+
+Log Entry : 
+08/06/2012 02:45:24
+Error in: http://localhost:15833/manage/Invoices/ViewInvoice.aspx?invoice_id=2. Error Message:Error in: http://localhost:15833/manage/Invoices/ViewInvoice.aspx?invoice_id=2
+ Error Message:A field or property with the name 'prodict_' was not found on the selected data source.
+ Inner Exception:   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at HealthStop.Web.manage.Invoices.ViewInvoice.PopulateInvoiceItems() in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\Invoices\ViewInvoice.aspx.cs:line 71
+   at HealthStop.Web.manage.Invoices.ViewInvoice.Page_Load(Object sender, EventArgs e) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\Invoices\ViewInvoice.aspx.cs:line 39
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+__________________________
+
+Log Entry : 
+08/06/2012 15:34:11
+Error in: http://localhost:15833/services/PosWebService.asmx. Error Message:System.NullReferenceException: Object reference not set to an instance of an object.
+   at HealthStop.Web.services.POSWebService.DownloadInvoices(Int32 companyID, String password) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\services\POSWebService.asmx.cs:line 315
+__________________________

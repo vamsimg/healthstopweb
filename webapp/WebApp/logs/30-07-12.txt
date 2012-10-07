@@ -1,0 +1,67 @@
+
+Log Entry : 
+07/30/2012 16:36:50
+Error in: http://localhost:15833/manage/Companies/OurCustomers.aspx. Error Message:Error in: http://localhost:15833/manage/Companies/OurCustomers.aspx
+ Error Message:Object reference not set to an instance of an object.
+ Inner Exception:   at HealthStop.Web.manage.Companies.OurCustomers.DeletePermissionImageButton_Command(Object sender, CommandEventArgs e) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\Companies\OurCustomers.aspx.cs:line 48
+   at System.Web.UI.WebControls.ImageButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+__________________________
+
+Log Entry : 
+07/30/2012 16:36:54
+Error in: http://localhost:15833/manage/Companies/OurCustomers.aspx. Error Message:Error in: http://localhost:15833/manage/Companies/OurCustomers.aspx
+ Error Message:Object reference not set to an instance of an object.
+ Inner Exception:   at HealthStop.Web.manage.Companies.OurCustomers.DeletePermissionImageButton_Command(Object sender, CommandEventArgs e) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\Companies\OurCustomers.aspx.cs:line 48
+   at System.Web.UI.WebControls.ImageButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+__________________________
+
+Log Entry : 
+07/30/2012 16:36:58
+Error in: http://localhost:15833/manage/Companies/OurCustomers.aspx. Error Message:Error in: http://localhost:15833/manage/Companies/OurCustomers.aspx
+ Error Message:Object reference not set to an instance of an object.
+ Inner Exception:   at HealthStop.Web.manage.Companies.OurCustomers.DeletePermissionImageButton_Command(Object sender, CommandEventArgs e) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\Companies\OurCustomers.aspx.cs:line 48
+   at System.Web.UI.WebControls.ImageButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+__________________________
+
+Log Entry : 
+07/30/2012 16:39:17
+Error in: http://localhost:15833/manage/Companies/GiveAccess.aspx. Error Message:Error in: http://localhost:15833/manage/Companies/GiveAccess.aspx
+ Error Message:Procedure or function 'AllowedStoreGetByCompany' expects parameter '@supplier_id', which was not supplied.
+ Inner Exception:   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at HealthStop.Business.Framework.SqlHelperBase.ExecuteDataReader(String command, CommandType commandType, List`1 parameterList, CommandBehavior behavior, Int32 timeout) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Framework\SqlHelperBase.cs:line 263
+   at HealthStop.Business.Framework.EntityBaseReadOnly.GetList[T](EntityBaseReadOnly parent, String commandText, List`1 parameters) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Framework\Generated.EntityBaseReadOnly.cs:line 1126
+   at HealthStop.Business.AllowedStore.GetAllowedStoresBycustomer_(Company customer_) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Generated.AllowedStore.cs:line 715
+   at HealthStop.Web.manage.Companies.GiveAccess.GiveAccessButton_Click(Object sender, EventArgs e) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\Companies\GiveAccess.aspx.cs:line 42
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+__________________________

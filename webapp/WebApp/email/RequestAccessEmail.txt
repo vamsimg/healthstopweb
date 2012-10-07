@@ -1,0 +1,15 @@
+﻿Hello  
+
+$fullName has requested access to your product list and ordering for their store: $store
+
+Their ABN is $abn
+
+phone number is $phone 
+
+email is $email
+
+Please login and add their store to your approved customers list.
+
+Regards
+
+The team at HealthStop

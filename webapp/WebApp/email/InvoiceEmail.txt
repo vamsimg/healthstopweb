@@ -1,0 +1,23 @@
+﻿Here is your email Invoice from HealthStop.
+
+If you are using a POS System the electronic invoice is available to download via the HealthStop POS Client.
+
+
+Healthstop Invoice Number:	$invoiceID
+
+Supplier:					$supplierName
+
+Supplier Invoice Number:		$local_code
+
+Purchase Order:			$purchaseorder_code
+
+Freight: $freight
+Tax:     $tax
+Total:   $total
+
+$invoiceItemHeader
+$invoiceItems               
+               
+
+
+

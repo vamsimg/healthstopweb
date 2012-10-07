@@ -1,0 +1,205 @@
+
+Log Entry : 
+07/24/2012 22:31:31
+Error in: http://localhost:15833/manage/PurchaseOrders/CustomerPurchaseOrders.aspx. Error Message:Error in: http://localhost:15833/manage/PurchaseOrders/CustomerPurchaseOrders.aspx
+ Error Message:c:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\PurchaseOrders\CustomerPurchaseOrders.aspx(32): error CS1061: 'ASP.manage_purchaseorders_customerpurchaseorders_aspx' does not contain a definition for 'DeleteOrderImageButton_Command' and no extension method 'DeleteOrderImageButton_Command' accepting a first argument of type 'ASP.manage_purchaseorders_customerpurchaseorders_aspx' could be found (are you missing a using directive or an assembly reference?)
+ Inner Exception:   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+__________________________
+
+Log Entry : 
+07/24/2012 22:33:49
+Error in: http://localhost:15833/manage/PurchaseOrders/CustomerPurchaseOrders.aspx. Error Message:Error in: http://localhost:15833/manage/PurchaseOrders/CustomerPurchaseOrders.aspx
+ Error Message:Procedure or function 'PurchaseOrderGetByCompany' expects parameter '@supplier_id', which was not supplied.
+ Inner Exception:   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at HealthStop.Business.Framework.SqlHelperBase.ExecuteDataReader(String command, CommandType commandType, List`1 parameterList, CommandBehavior behavior, Int32 timeout) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Framework\SqlHelperBase.cs:line 263
+   at HealthStop.Business.Framework.SqlHelperBase.ExecuteDataReader(String command, CommandType commandType, List`1 parameterList) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Framework\SqlHelperBase.cs:line 216
+   at HealthStop.Business.Framework.EntityBaseReadOnly.GetList[T](EntityBaseReadOnly parent, String commandText, List`1 parameters) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Framework\Generated.EntityBaseReadOnly.cs:line 1126
+   at HealthStop.Business.PurchaseOrder.GetPurchaseOrdersBycustomer_(Company customer_) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Generated.PurchaseOrder.cs:line 789
+   at HealthStop.Business.Company.get_PurchaseOrdersBycustomer_() in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Generated.Company.cs:line 659
+   at HealthStop.Web.manage.PurchaseOrders.CustomerPurchaseOrders.PopulateOrderLists() in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\PurchaseOrders\CustomerPurchaseOrders.aspx.cs:line 46
+   at HealthStop.Web.manage.PurchaseOrders.CustomerPurchaseOrders.Page_Load(Object sender, EventArgs e) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\PurchaseOrders\CustomerPurchaseOrders.aspx.cs:line 37
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+__________________________
+
+Log Entry : 
+07/24/2012 22:37:43
+Error in: http://localhost:15833/manage/PurchaseOrders/CustomerPurchaseOrders.aspx. Error Message:Error in: http://localhost:15833/manage/PurchaseOrders/CustomerPurchaseOrders.aspx
+ Error Message:Procedure or function 'PurchaseOrderGetByCompany' expects parameter '@supplier_id', which was not supplied.
+ Inner Exception:   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at HealthStop.Business.Framework.SqlHelperBase.ExecuteDataReader(String command, CommandType commandType, List`1 parameterList, CommandBehavior behavior, Int32 timeout) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Framework\SqlHelperBase.cs:line 263
+   at HealthStop.Business.Framework.SqlHelperBase.ExecuteDataReader(String command, CommandType commandType, List`1 parameterList) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Framework\SqlHelperBase.cs:line 216
+   at HealthStop.Business.Framework.EntityBaseReadOnly.GetList[T](EntityBaseReadOnly parent, String commandText, List`1 parameters) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Framework\Generated.EntityBaseReadOnly.cs:line 1126
+   at HealthStop.Business.PurchaseOrder.GetPurchaseOrdersBycustomer_(Company customer_) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Generated.PurchaseOrder.cs:line 789
+   at HealthStop.Business.Company.get_PurchaseOrdersBycustomer_() in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\Business\Generated.Company.cs:line 659
+   at HealthStop.Web.manage.PurchaseOrders.CustomerPurchaseOrders.DeleteOrderImageButton_Command(Object sender, CommandEventArgs e) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\PurchaseOrders\CustomerPurchaseOrders.aspx.cs:line 96
+   at System.Web.UI.WebControls.ImageButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+__________________________
+
+Log Entry : 
+07/24/2012 22:42:09
+Error in: http://localhost:15833/images/itunes.jpg. Error Message:Error in: http://localhost:15833/images/itunes.jpg
+ Error Message:File does not exist.
+ Inner Exception:   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+__________________________
+
+Log Entry : 
+07/24/2012 22:42:09
+Error in: http://localhost:15833/images/landingPage.jpg. Error Message:Error in: http://localhost:15833/images/landingPage.jpg
+ Error Message:File does not exist.
+ Inner Exception:   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+__________________________
+
+Log Entry : 
+07/24/2012 22:43:10
+Error in: http://localhost:15833/manage/PurchaseOrders/ViewPurchaseOrder.aspx?purchaseorder_id=6. Error Message:Error in: http://localhost:15833/manage/PurchaseOrders/ViewPurchaseOrder.aspx?purchaseorder_id=6
+ Error Message:Input string was not in a correct format.
+ Inner Exception:   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at HealthStop.Web.manage.PurchaseOrders.ViewPurchaseOrder.CalculateButton_Click(Object sender, EventArgs e) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\PurchaseOrders\ViewPurchaseOrder.aspx.cs:line 98
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+__________________________
+
+Log Entry : 
+07/24/2012 22:47:31
+Error in: http://localhost:15833/images/landingPage.jpg. Error Message:Error in: http://localhost:15833/images/landingPage.jpg
+ Error Message:File does not exist.
+ Inner Exception:   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+__________________________
+
+Log Entry : 
+07/24/2012 22:47:31
+Error in: http://localhost:15833/images/itunes.jpg. Error Message:Error in: http://localhost:15833/images/itunes.jpg
+ Error Message:File does not exist.
+ Inner Exception:   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+__________________________
+
+Log Entry : 
+07/24/2012 22:47:54
+Error in: http://localhost:15833/manage/PurchaseOrders/ViewPurchaseOrder.aspx?purchaseorder_id=6. Error Message:Error in: http://localhost:15833/manage/PurchaseOrders/ViewPurchaseOrder.aspx?purchaseorder_id=6
+ Error Message:The ControlToValidate property of 'RequiredFieldValidator1' cannot be blank.
+ Inner Exception:   at System.Web.UI.WebControls.BaseValidator.ControlPropertiesValid()
+   at System.Web.UI.WebControls.BaseValidator.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+__________________________
+
+Log Entry : 
+07/24/2012 22:49:17
+Error in: http://localhost:15833/manage/PurchaseOrders/ViewPurchaseOrder.aspx?purchaseorder_id=6. Error Message:Error in: http://localhost:15833/manage/PurchaseOrders/ViewPurchaseOrder.aspx?purchaseorder_id=6
+ Error Message:The ControlToValidate property of 'QuantityTextBoxRequiredFieldValidator' cannot be blank.
+ Inner Exception:   at System.Web.UI.WebControls.BaseValidator.ControlPropertiesValid()
+   at System.Web.UI.WebControls.BaseValidator.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+__________________________
+
+Log Entry : 
+07/24/2012 22:55:22
+Error in: http://localhost:15833/images/landingPage.jpg. Error Message:Error in: http://localhost:15833/images/landingPage.jpg
+ Error Message:File does not exist.
+ Inner Exception:   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+__________________________
+
+Log Entry : 
+07/24/2012 22:55:22
+Error in: http://localhost:15833/images/itunes.jpg. Error Message:Error in: http://localhost:15833/images/itunes.jpg
+ Error Message:File does not exist.
+ Inner Exception:   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+__________________________
+
+Log Entry : 
+07/24/2012 22:56:09
+Error in: http://localhost:15833/manage/PurchaseOrders/ViewPurchaseOrder.aspx?purchaseorder_id=7. Error Message:Error in: http://localhost:15833/manage/PurchaseOrders/ViewPurchaseOrder.aspx?purchaseorder_id=7
+ Error Message:The specified string is not in the form required for an e-mail address.
+ Inner Exception:   at System.Net.Mail.MailAddressParser.ParseAddress(String data, Boolean expectMultipleAddresses, Int32& index)
+   at System.Net.Mail.MailAddressParser.ParseAddress(String data)
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at HealthStop.Web.AppCode.EmailHelper.SendXMLOrder(String sender, Company customer, Company supplier, String orderXML) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\AppCode\EmailHelper.cs:line 179
+   at HealthStop.Web.manage.PurchaseOrders.ViewPurchaseOrder.SubmitButton_Click(Object sender, EventArgs e) in C:\Users\vamsinator\Desktop\healthstop\healthstopweb\webapp\WebApp\manage\PurchaseOrders\ViewPurchaseOrder.aspx.cs:line 180
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+__________________________
